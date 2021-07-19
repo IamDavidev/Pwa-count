@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" 
+    <!-- PWA -->
+    <meta name="theme-color" content="#191919" />
+    <meta name="mobileOptimized" content="width" />
+    <meta name="handheldFriendly" content="true" />
+    <!-- modificar Barra De Estado IOS -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <!-- icons -->
+    <link rel="shortcut icon" href="./img/1249984_hashtag_pound_tag_tagged_number_icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="./img/1249984_hashtag_pound_tag_tagged_number_icon.png" >
+    <link rel="apple-touch-startup-imge" href="./img/1249984_hashtag_pound_tag_tagged_number_icon.png">
+    <!-- manifest -->
+    <link rel="manifest" href="./js/manifest.json">
+    <!--  style-->
+    <link rel="stylesheet" href="./css/css.css" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <!-- VUE -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+
+    <title>Metodos y Eventos</title>
+  </head>
+  <body>
+    <div id="app">
+      <hr />
+      <h1>{{title}}</h1>
+      <h3>{{count}}</h3>
+      <button @click="multi">*2</button>
+      <button @click="divi">/2</button>
+      <button @click="cuad">²</button>
+      <hr />
+    </div>
+
+
+
+    <script src="./load.js"></script>
+    <script src="./js/vue.js"></script>
+    <script src="./js/createApp.js"></script>
+  </body>
+</html>

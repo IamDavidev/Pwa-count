@@ -1,0 +1,31 @@
+*{
+    background-color: #2e3c50;
+    padding:6px;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:teal;
+    text-align: center;
+}
+
+
+h3{
+    color:red;
+    font-weight: bold;
+    font-size:39px;
+}
+hr{
+    background: slategrey;
+    height:19px;
+}
+button{
+    background:#191919;
+    color:#79c4e291;
+    
+}
+
+
+
+
+
+
+
